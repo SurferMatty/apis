@@ -1,0 +1,33 @@
+body{
+    background-color: teal;
+}
+
+.bigContainer{
+    display: flex;
+    flex-direction: row;
+    border: 10px solid white;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+.boxContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.titleBox{
+    border: 4px solid white;
+}
+
+.contentBox {
+   border: 2px solid white;
+   margin: auto;
+}
+
+.titleBox, .contentBox{
+    color: grey;
+    background-color:black;
+    padding: 5px;
+}

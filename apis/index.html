@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <head>
+        <link rel="stylesheet" type="text/css" href="Resources/index.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="Resources/script.js"></script>
+    </head>
+
+    <body>
+        <div class="bigContainer">
+            <div class="boxContainer">
+
+                <select id="country" class="titleBox">
+                    <option value="GB">England</option>
+                    <option value="FR">France</option>
+                    <option value="DE">Germany</option>
+                    <option value="US">USA</option>
+                </select>
+
+                <select id="language" class="titleBox">
+                    <option value="en">English</option>
+                    <option value="fr">Francais</option>
+                    <option value="de">Deutsche</option>
+                </select>
+                <button id="geoButton">
+                    Submit
+                </button>
+
+                <table class="contentBox">
+                    <tr>
+                        <td>
+                            Continent:
+                        </td>
+                        <td id="continent">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Capital:
+                        </td>
+                        <td id="capital">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Language:
+                        </td>
+                        <td id="languages">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Population:
+                        </td>
+                        <td id="population">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Area:
+                        </td>
+                        <td id="area">
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
+
+
+            <div class="boxContainer">
+                <label for="titleBox">Which city are you in?</label>
+                <input id="city">
+                </input>
+
+                <button id="weatherButton">
+                    Submit
+                </button>
+
+                <table class="contentBox">
+
+                    <td>
+                        Weather:
+                    </td>
+                    <td id="weather">
+
+                    </td>
+                    
+                </table>
+
+            </div>
+        </div>
+    </body>
+
+</html>
